@@ -12,12 +12,27 @@ import { createSlice } from "@reduxjs/toolkit";
             state.nowPlayingMovies=action.payload;
         },
 
+        addPopularMovies:(state,action)=>{
+
+              state.PopularMovies=action.payload;
+        },
+
+        addTopRatedMovies:(state,action)=>{
+
+            state.TopRatedMovies=action.payload;
+        },
+
+        addUpcomingMovies:(state,action)=>{
+           
+            state.UpcomingMovies=action.payload;
+        },
+
         addTrailerVideo:(state,action)=>{
             state.trailerVideo=action.payload;
         },
     },
  });
 
- export const{ addTrailerVideo,addNowPlayingMovies}=moviesSlice.actions;
+ export const{ addTrailerVideo,addNowPlayingMovies,addPopularMovies,addTopRatedMovies,addUpcomingMovies}=moviesSlice.actions;
 
  export default moviesSlice.reducer;
