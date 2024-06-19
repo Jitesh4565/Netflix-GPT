@@ -39,6 +39,7 @@
 - GPT Search Bar
 - Multi-Language Feature in our App
 
+
 # Features
 
 - login/sign up 

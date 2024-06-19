@@ -5,16 +5,19 @@ import { BG_IMG } from '../utils/constant'
 
 const GptSearch = () => {
   return (
-    <div>
-       <div className="absolute -z-10">
-        <img
+    <>
+    <div className="absolute -z-10 ">
+      <img
+          className='object-contain'
           src={BG_IMG}
           alt="BgImg"
         />
-      </div>
+      </div>  
+        <div className='pt-[30%] md:p-0'>
       <GptSearchBar/>
       <GptMovieSuggestion/>
     </div>
+    </>
   )
 }
 
