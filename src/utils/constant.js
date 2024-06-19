@@ -23,5 +23,4 @@ export const SUPPORTED_LANGUAGES=[
 {identifier:"spanish",name:"Spanish"},
 ] 
 
-  
 export const API_KEY=process.env.REACT_APP_MOVIE_KEY;
