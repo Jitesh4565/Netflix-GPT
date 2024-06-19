@@ -26,4 +26,3 @@ export const SUPPORTED_LANGUAGES=[
   
 export const API_KEY=process.env.REACT_APP_MOVIE_KEY;
 
-//export const OPENAI_KEY="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";
