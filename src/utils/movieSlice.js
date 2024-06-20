@@ -29,10 +29,14 @@ import { createSlice } from "@reduxjs/toolkit";
 
         addTrailerVideo:(state,action)=>{
             state.trailerVideo=action.payload;
-        },
+        }, 
+        
+        addGenreMovies:(state,action)=>{
+            state.genreMovies=action.payload;
+        }
     },
  });
 
- export const{ addTrailerVideo,addNowPlayingMovies,addPopularMovies,addTopRatedMovies,addUpcomingMovies}=moviesSlice.actions;
+ export const{ addTrailerVideo,addNowPlayingMovies,addPopularMovies,addTopRatedMovies,addUpcomingMovies,addGenreMovies}=moviesSlice.actions;
 
  export default moviesSlice.reducer;

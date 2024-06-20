@@ -6,7 +6,7 @@ import { BG_IMG } from '../utils/constant'
 const GptSearch = () => {
   return (
     <div>
-       <div className="absolute -z-10">
+       <div className="absolute -z-10 hide-scrollbar">
         <img
           src={BG_IMG}
           alt="BgImg"

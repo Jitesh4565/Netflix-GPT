@@ -78,15 +78,15 @@ const Header = () => {
         <button  
         className="py-2 px-4 mx-4 my-2 bg-red-700 text-white rounded-lg"
         onClick={handleGptSearchClick}
-        >{showGptSearch? "Homepage":"GPT Search"}
+        >{showGptSearch? "Homepage":"Search"}
         </button>
         <img
           className="w-12 h-12" 
           src={user?.photoURL}
           alt="usericon"
         />
-        <button onClick={handleSignOut} className="font-bold text-white">
-          (Sign Out)
+        <button onClick={handleSignOut} className=" bg-red-700 rounded-lg m-2 p-2 text-white">
+          Sign Out
         </button>
       </div>
      )}
